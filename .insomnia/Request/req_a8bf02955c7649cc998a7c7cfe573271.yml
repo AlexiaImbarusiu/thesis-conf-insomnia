@@ -1,0 +1,34 @@
+_id: req_a8bf02955c7649cc998a7c7cfe573271
+type: Request
+parentId: fld_5fe76ee3bde04421a627c32b7f3c3aaf
+modified: 1651689438354
+created: 1651585822379
+url: http://localhost:5000/conf/6270023590089a046ddc8967/speech/
+name: create speech
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "test speech",
+    	"description": "something about the speech",
+    	"date": "2022-6-28",
+    	"conferenceId": "6270023590089a046ddc8967",
+    	"room": "",
+    	"speakers": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a81b004158ae4a3bafd979e7aa8c5002
+authentication: {}
+metaSortKey: -1651585822379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

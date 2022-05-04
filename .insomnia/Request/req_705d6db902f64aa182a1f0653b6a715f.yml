@@ -1,0 +1,21 @@
+_id: req_705d6db902f64aa182a1f0653b6a715f
+type: Request
+parentId: fld_0016df450e14451db576df32e92d50d7
+modified: 1651508222117
+created: 1651508085430
+url: http://localhost:5000/conf/6270023590089a046ddc8967
+name: get conference by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651508085430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

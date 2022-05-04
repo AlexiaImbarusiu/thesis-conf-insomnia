@@ -1,0 +1,41 @@
+_id: req_30727bf47fc74766a2185939c9bc1e28
+type: Request
+parentId: fld_3f7e4f9bcfe7451e8d7945b1b5d5c8d5
+modified: 1651509484043
+created: 1650710173579
+url: http://localhost:5000/conf/6270023590089a046ddc8967/speaker/
+name: create new speaker
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >2
+     {
+      "name": "George",
+      "profession": "Doctor",
+      "avatar": "https://picsum.photos/seed/George/70",
+      "biography":
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam",
+      "socials": {
+        "facebook": "",
+        "twitter": "",
+        "instagram": "",
+        "linkedIn": ""
+      },
+      "conferenceId": "6270023590089a046ddc8967",
+      "speeches": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eca8d59982c94ca7bd8c5463a21ace23
+authentication: {}
+metaSortKey: -1650703576031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

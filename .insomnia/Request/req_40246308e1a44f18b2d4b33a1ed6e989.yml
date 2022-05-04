@@ -1,0 +1,21 @@
+_id: req_40246308e1a44f18b2d4b33a1ed6e989
+type: Request
+parentId: fld_3f7e4f9bcfe7451e8d7945b1b5d5c8d5
+modified: 1651688299654
+created: 1650710173586
+url: http://localhost:4000/conf/6270023590089a046ddc8967/speaker/
+name: get speaker by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650704279721
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
