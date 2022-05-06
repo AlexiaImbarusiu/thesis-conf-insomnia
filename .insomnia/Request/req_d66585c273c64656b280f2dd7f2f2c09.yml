@@ -1,0 +1,21 @@
+_id: req_d66585c273c64656b280f2dd7f2f2c09
+type: Request
+parentId: fld_5fe76ee3bde04421a627c32b7f3c3aaf
+modified: 1651828668364
+created: 1651828630091
+url: http://localhost:5000/conf/6270023590089a046ddc8967/speech/
+name: get speech by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651828630091
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_919a8bac1f794b91bb2adb5d19053906
+type: Request
+parentId: fld_96115bc676974b688ab7176969dbb0cc
+modified: 1651831476110
+created: 1651830835730
+url: http://localhost:5000/conf/6270023590089a046ddc8967/user/
+name: create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "regular",
+    	"name": {
+    		"first": "user2",
+    		"last": "last2"
+    	},
+    	"email": "user2@yahoo.com",
+    	"password": "pass1",
+    	"favoriteSpeeches": "6274e77e2b90b1beb1c04d52",
+    	"conferenceId": "6270023590089a046ddc8967"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8eb39d008448446e8cdf65550ba0821f
+authentication: {}
+metaSortKey: -1651830835730
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

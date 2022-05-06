@@ -1,0 +1,35 @@
+_id: req_6f155c56dee74d51a8ab89eec7a94971
+type: Request
+parentId: fld_6f7d3bd085b74c609515280dbe1a0c2c
+modified: 1651831111101
+created: 1651828116431
+url: http://localhost:5000/conf/6270023590089a046ddc8967/room/
+name: create room
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "room1",
+    	"coordinates": {
+    		"lat": 12.4135,
+    		"long": 34.2353
+    	},
+    	"locationDetails": "1st floor 3rd door on the left",
+    	"conferenceId": "6270023590089a046ddc8967"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_85e756c2e9ea4947b2fe0045cce291bb
+authentication: {}
+metaSortKey: -1651828116431
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

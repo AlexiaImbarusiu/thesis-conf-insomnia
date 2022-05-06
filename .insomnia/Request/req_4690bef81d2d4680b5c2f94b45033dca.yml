@@ -1,0 +1,21 @@
+_id: req_4690bef81d2d4680b5c2f94b45033dca
+type: Request
+parentId: fld_6f7d3bd085b74c609515280dbe1a0c2c
+modified: 1651830769887
+created: 1651830742358
+url: http://localhost:5000/conf/6270023590089a046ddc8967/room/6274ef60df66f6edd968165b
+name: delete room
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651830742358
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

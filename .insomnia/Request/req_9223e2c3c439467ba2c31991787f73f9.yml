@@ -1,0 +1,21 @@
+_id: req_9223e2c3c439467ba2c31991787f73f9
+type: Request
+parentId: fld_6f7d3bd085b74c609515280dbe1a0c2c
+modified: 1651830548050
+created: 1651829937970
+url: http://localhost:5000/conf/6270023590089a046ddc8967/room/
+name: get room
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651829937970
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_781ce93879bf403ea56426295d8704b3
+type: Request
+parentId: fld_5fe76ee3bde04421a627c32b7f3c3aaf
+modified: 1651829670234
+created: 1651828783923
+url: http://localhost:5000/conf/6270023590089a046ddc8967/speech/6274e74a2b90b1beb1c04d50
+name: delete one speech
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651828783923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

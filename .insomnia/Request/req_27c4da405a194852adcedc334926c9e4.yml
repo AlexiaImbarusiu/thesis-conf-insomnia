@@ -1,0 +1,26 @@
+_id: req_27c4da405a194852adcedc334926c9e4
+type: Request
+parentId: fld_5fe76ee3bde04421a627c32b7f3c3aaf
+modified: 1651830681803
+created: 1651829747143
+url: http://localhost:5000/conf/6270023590089a046ddc8967/speech/6274e77e2b90b1beb1c04d52
+name: update speech
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"title":"updated speech"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3363ac1d6b9b478eb7dce77a17a8b19a
+authentication: {}
+metaSortKey: -1651829747143
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

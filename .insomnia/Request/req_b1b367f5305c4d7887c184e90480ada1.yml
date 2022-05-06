@@ -1,0 +1,30 @@
+_id: req_b1b367f5305c4d7887c184e90480ada1
+type: Request
+parentId: fld_96115bc676974b688ab7176969dbb0cc
+modified: 1651831443094
+created: 1651831266837
+url: http://localhost:5000/conf/6270023590089a046ddc8967/user/6274f196df66f6edd9681664
+name: update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":{ "first": "edited",
+    				 "last":"last"}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c6d545746ac4568b9260c01e5dd920d
+authentication: {}
+metaSortKey: -1651831266837
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

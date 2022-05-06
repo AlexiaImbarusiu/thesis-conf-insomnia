@@ -1,0 +1,26 @@
+_id: req_6f211b1c4a774195b5bfd4e66e863191
+type: Request
+parentId: fld_6f7d3bd085b74c609515280dbe1a0c2c
+modified: 1651831355708
+created: 1651830650333
+url: http://localhost:5000/conf/6270023590089a046ddc8967/room/6274e72b2b90b1beb1c04d4e
+name: update room
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"name":"updated room"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e864f3e6f6634eca82555605badcf7eb
+authentication: {}
+metaSortKey: -1651830650333
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
