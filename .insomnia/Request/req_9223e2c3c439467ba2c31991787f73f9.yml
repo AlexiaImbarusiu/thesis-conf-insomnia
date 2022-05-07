@@ -1,7 +1,7 @@
 _id: req_9223e2c3c439467ba2c31991787f73f9
 type: Request
 parentId: fld_6f7d3bd085b74c609515280dbe1a0c2c
-modified: 1651830548050
+modified: 1651861330027
 created: 1651829937970
 url: http://localhost:5000/conf/6270023590089a046ddc8967/room/
 name: get room
@@ -9,7 +9,13 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_29673a92a0064eaeade2c84a42e5a9d8
+    name: Authorization
+    value: JWT
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJmdWxsTmFtZSI6Ikdlb3JnZUtvc21vIiwiX2lkIjoiNjI3NTYxZDYyMzY2ZDE5Mzc2YzdhZmJmIiwiaWF0IjoxNjUxODYwNDY0fQ.caSXPkwoEiqrQXXWLpg6df2y4_r5faG5Y5seoHeTyzA
+    description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1651829937970
 isPrivate: false

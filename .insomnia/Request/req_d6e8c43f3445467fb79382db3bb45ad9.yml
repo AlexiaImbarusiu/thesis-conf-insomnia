@@ -1,7 +1,7 @@
 _id: req_d6e8c43f3445467fb79382db3bb45ad9
 type: Request
 parentId: fld_96115bc676974b688ab7176969dbb0cc
-modified: 1651831216491
+modified: 1651861082071
 created: 1651831203196
 url: http://localhost:5000/conf/6270023590089a046ddc8967/user/
 name: get users
@@ -9,8 +9,16 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
-authentication: {}
+headers:
+  - id: pair_7665d8e5c4b14f6d956b39d5d1d2a063
+    name: Authorization
+    value: JWT
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJmdWxsTmFtZSI6Ikdlb3JnZUtvc21vIiwiX2lkIjoiNjI3NTYxZDYyMzY2ZDE5Mzc2YzdhZmJmIiwiaWF0IjoxNjUxODYwNDY0fQ.caSXPkwoEiqrQXXWLpg6df2y4_r5faG5Y5seoHeTyzA
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJmdWxsTmFtZSI6Ikdlb3JnZUtvc21vIiwiX2lkIjoiNjI3NTYxZDYyMzY2ZDE5Mzc2YzdhZmJmIiwiaWF0IjoxNjUxODYwNDY0fQ.caSXPkwoEiqrQXXWLpg6df2y4_r5faG5Y5seoHeTyzA
+  prefix: JWT
 metaSortKey: -1651831203196
 isPrivate: false
 settingStoreCookies: true

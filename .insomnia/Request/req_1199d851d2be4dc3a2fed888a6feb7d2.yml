@@ -1,20 +1,16 @@
-_id: req_aafa67aab2d64f848f2d9df6397ede83
+_id: req_1199d851d2be4dc3a2fed888a6feb7d2
 type: Request
 parentId: fld_96115bc676974b688ab7176969dbb0cc
-modified: 1651859975642
-created: 1651849223402
-url: localhost:5000/user/auth/register
-name: register
+modified: 1651861698745
+created: 1651859963946
+url: localhost:5000/user/auth/signIn
+name: sign in
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": {
-    		"first": "George",
-    		"last": "Kosmo"
-    	},
     	"email": "test@test.com",
     	"password": "12345"
     }
@@ -22,9 +18,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_eecfc2ff91cd4e549fcfc482def8e9d0
+    id: pair_6ff4ec8953f641f69b7792886eb3a6e8
 authentication: {}
-metaSortKey: -1651830835680
+metaSortKey: -1651831019463
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

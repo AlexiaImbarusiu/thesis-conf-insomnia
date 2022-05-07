@@ -1,7 +1,7 @@
 _id: req_3d3bbc7b32e14765a104d6f8860371a4
 type: Request
 parentId: fld_3f7e4f9bcfe7451e8d7945b1b5d5c8d5
-modified: 1651509316778
+modified: 1651862404331
 created: 1650710173582
 url: http://localhost:5000/conf/6270023590089a046ddc8967/speaker/
 name: get speakers
@@ -9,9 +9,15 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_2257796b041e41ccb8d5546568d08cb8
+    name: Authorization
+    value: JWT
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJmdWxsTmFtZSI6Ikdlb3JnZUtvc21vIiwiX2lkIjoiNjI3NTYxZDYyMzY2ZDE5Mzc2YzdhZmJmIiwiaWF0IjoxNjUxODYwNDY0fQ.caSXPkwoEiqrQXXWLpg6df2y4_r5faG5Y5seoHeTyzA
+    description: ""
+    disabled: false
 authentication: {}
-metaSortKey: -1650703575981
+metaSortKey: 300
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
