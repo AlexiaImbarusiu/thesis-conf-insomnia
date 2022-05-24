@@ -1,9 +1,9 @@
 _id: req_1199d851d2be4dc3a2fed888a6feb7d2
 type: Request
 parentId: fld_96115bc676974b688ab7176969dbb0cc
-modified: 1651861698745
+modified: 1653250292392
 created: 1651859963946
-url: localhost:5000/user/auth/signIn
+url: http://localhost:5000/user/auth/signIn
 name: sign in
 description: ""
 method: POST
@@ -19,6 +19,7 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_6ff4ec8953f641f69b7792886eb3a6e8
+    disabled: false
 authentication: {}
 metaSortKey: -1651831019463
 isPrivate: false

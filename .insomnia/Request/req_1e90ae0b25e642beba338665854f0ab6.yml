@@ -1,0 +1,30 @@
+_id: req_1e90ae0b25e642beba338665854f0ab6
+type: Request
+parentId: fld_96115bc676974b688ab7176969dbb0cc
+modified: 1652988050115
+created: 1652118818613
+url: localhost:5000/user/auth/refresh
+name: refresh
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"email": "test@test.com",
+    	"refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJmdWxsTmFtZSI6Ikdlb3JnZUtvc21vIiwiX2lkIjoiNjI3NTYxZDYyMzY2ZDE5Mzc2YzdhZmJmIiwiaWF0IjoxNjUyMTE5ODM5LCJleHAiOjE2NTQ3MTE4Mzl9.XNE8nCS_9gMjnb5ohi28V8loCNxAwMHXq3FHqwb-5jo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_263eccc0ddfd4786b76a6dec1e2179f7
+authentication: {}
+metaSortKey: -1651831111329.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
